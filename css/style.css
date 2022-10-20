@@ -1,0 +1,95 @@
+body{
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+.hidden {
+    display: none;
+  }
+
+.whiteFont {
+  color : white;
+}
+
+.blackFont {
+  color : black;
+}
+
+h2 {
+  text-align: center;
+  font-size: 150px;
+  margin-bottom : 10px;
+  text-shadow: 4px 2px 2px gray;
+}
+
+#weather {
+  font-size: 50px;
+  position:absolute;
+  top:10%;
+  transform:translateY(-10%);
+  left:85%; 
+  transform:translateX(-85%);
+  text-shadow: 4px 2px 2px gray;
+}
+
+#loginForm, #greeting{
+  text-align: center;
+  text-shadow: 4px 2px 2px gray;
+}
+
+#toDoForm{
+  text-align: center;
+}
+
+#toDoList{
+  text-align: center;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 30px;
+}
+
+input[type=text]{
+  border: none;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 30px;
+  height: 30px;
+  width: 350px;
+  outline: none;
+  text-align: center;
+  background: transparent;
+  border-bottom: 3px solid white;
+  text-shadow: 4px 2px 2px gray;
+  color:bisque;
+}
+
+::placeholder{
+  color:white;
+  text-shadow: 4px 2px 2px gray;
+}
+
+input[type=submit]{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 30px;
+  border-radius: 10px;
+  text-shadow: 4px 2px 2px gray;
+}
+
+button{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+  border-radius: 10px;
+  text-shadow: 4px 2px 2px gray;
+}
+
+li{
+  list-style: none;
+  margin-left : 3px;
+  text-shadow: 4px 2px 2px gray;
+}
+
+footer {
+  font-size: 30px;
+  position: absolute;
+  bottom : 0px;
+  left:50%; 
+  transform:translateX(-50%);
+  text-shadow: 4px 2px 2px gray;
+}
